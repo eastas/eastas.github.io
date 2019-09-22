@@ -31,7 +31,7 @@ function createCircle(e, t) {
     var a = {};
     return a.x = e,
     a.y = t,
-    a.color = "#F00",
+    a.color =  "#2f4f4f",
     a.radius = .1,
     a.alpha = .5,
     a.lineWidth = 6,
@@ -96,17 +96,17 @@ function debounce(fn, delay) {
 var canvasEl = document.querySelector(".fireworks");
 if (canvasEl) {
     var ctx = canvasEl.getContext("2d")
-      , numberOfParticules = 30
+      , numberOfParticules = 15
       , pointerX = 0
       , pointerY = 0
       , tap = "mousedown"
-      , colors = ["#FF1461", "#18FF92", "#5A87FF", "#FBF38C"]
+      , colors = ["#008b8b", "#008080", "#48d1cc", "#20b2aa"]
       , setCanvasSize = debounce(function() {
         canvasEl.width = 2 * window.innerWidth,
         canvasEl.height = 2 * window.innerHeight,
         canvasEl.style.width = window.innerWidth + "px",
         canvasEl.style.height = window.innerHeight + "px",
-        canvasEl.getContext("2d").scale(2, 2)
+        canvasEl.getContext("2d").scale(2,2)
     },500)
       , render = anime({
         duration: 1 / 0,
