@@ -47,7 +47,7 @@ function createCircle(e, t) {
     ,
     a
 }
-/*function renderParticule(e) {
+function renderParticule(e) {
     for (var t = 0; t < e.animatables.length; t++)
         e.animatables[t].target.draw()
 }
@@ -80,7 +80,7 @@ function animateParticules(e, t) {
         update: renderParticule,
         offset: 0
     })
-}*/
+}
 function debounce(fn, delay) {
   var timer
   return function () {
