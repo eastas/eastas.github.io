@@ -11,7 +11,7 @@ function setParticuleDirection(e) {
         y: e.y + n * Math.sin(t)
     }
 }
-function createParticule(e, t) {
+/*function createParticule(e, t) {
     var a = {};
     return a.x = e,
     a.y = t,
@@ -26,7 +26,7 @@ function createParticule(e, t) {
     }
     ,
     a
-}
+}*/
 function createCircle(e, t) {
     var a = {};
     return a.x = e,
@@ -47,7 +47,7 @@ function createCircle(e, t) {
     ,
     a
 }
-function renderParticule(e) {
+/*function renderParticule(e) {
     for (var t = 0; t < e.animatables.length; t++)
         e.animatables[t].target.draw()
 }
@@ -80,7 +80,7 @@ function animateParticules(e, t) {
         update: renderParticule,
         offset: 0
     })
-}
+}*/
 function debounce(fn, delay) {
   var timer
   return function () {
