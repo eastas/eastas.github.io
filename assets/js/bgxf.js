@@ -8,7 +8,7 @@ return document.getElementsByTagName(n)
 }
 function t(){
 var t=e("script"),o=t.length,i=t[o-1];
-return{l:o,z:n(i,"zIndex",-1),o:n(i,"opacity",.5),c:n(i,"color","64,224,208"),n:n(i,"count",300)}
+return{l:o,z:n(i,"zIndex",-1),o:n(i,"opacity",.5),c:n(i,"color","64,224,208"),n:n(i,"count",2000)}
 }
 function o(){
 a=m.width=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,
