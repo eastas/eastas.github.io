@@ -11,7 +11,7 @@ function setParticuleDirection(e) {
         y: e.y + n * Math.sin(t)
     }
 }
-/*function createParticule(e, t) {
+function createParticule(e, t) {
     var a = {};
     return a.x = e,
     a.y = t,
@@ -26,7 +26,7 @@ function setParticuleDirection(e) {
     }
     ,
     a
-}*/
+}
 function createCircle(e, t) {
     var a = {};
     return a.x = e,
